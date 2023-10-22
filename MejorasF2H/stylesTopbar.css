@@ -1,0 +1,12 @@
+@media print {
+    body {
+      margin: 0; 
+    }
+    .page {
+      size: letter landscape;  
+    }
+    .no-print {
+        display: none;
+        color:white;
+      }
+  }
