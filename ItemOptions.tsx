@@ -64,6 +64,7 @@ export function ClientItemOptions({ linkedItems, setLinkedToScroll, selectedText
       <div className='flex bg-C/Color3 py-1.5 pl-5 text-sm font-semibold text-white'>
         {t('MSG_25')}
       </div>
+      
       <div className='scrollable-editor border-b-1 relative overflow-y-scroll border-b border-b-dark-blue'>
         <div className='z-0'>
           <div>{renderOptionsAccordion(linkedItems)}</div>
