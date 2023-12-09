@@ -50,7 +50,6 @@ export function ClientItemOptions({ linkedItems, setLinkedToScroll, selectedText
       </div>
     )
   }
-
   function renderSelectedTextureAccordion(linkedItem: LinkedItem) {
     return (
       <div className='mr-[1px] w-full cursor-pointer border-b border-black p-1 pl-12 hover:bg-slate-100'>
