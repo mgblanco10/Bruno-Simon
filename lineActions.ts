@@ -4,6 +4,7 @@ store.items.forEach((item, itemId) => {
     console.log(' holePosition', holePosition)
     if (holePosition < rigthWallHalfWidth) {
       console.log('entrando aquí')
+      
       item.line = rightWall.id
       item.distD = rigthWallHalfWidth - (item.distI + item.width )
       console.log(` LADO Izquierdo que pasa distI: ${item.distI}, distD: ${item.distD}, width HOLES item.width: ${item.width}, rigthWallHalfWidth: ${rigthWallHalfWidth}, PARED item.line: ${ item.line}, leftWall.id ${leftWall.id} y pared rightWall.id: ${rightWall.id} `)
