@@ -64,7 +64,7 @@ const clock = new THREE.Clock();
 const tick = () => {
   const elapsedTime = clock.getElapsedTime();
 
-  //Update objects
+  //Update objects OJO
   // mesh.rotation.y = elapsedTime * Math.PI * 2
   // mesh.position.y = elapsedTime
   camera.position.y = Math.sin(elapsedTime);
